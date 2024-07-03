@@ -28,9 +28,9 @@
   </head>
   <body>
     <!-- header section  -->
-    <header class="max-w-[1160px] mx-auto">
+    <header class="bg-gradient-to-r from-[#C9DDE7] via-white to-[#C9DDE7]">
       <!-- navbar section  -->
-      <nav>
+      <nav class="max-w-[1160px] mx-auto">
         <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
@@ -99,14 +99,103 @@
           </div>
         </div>
       </nav>
+
       <!-- top banner   -->
       <div
-        class="hero min-h-[470px]"
+        class="max-w-[1160px] mx-auto hero min-h-[470px]"
         style="background-image: url(./Image/Rectangle\ 5.png)"
       >
-        <div class="hero-overlay bg-opacity-25 lg:rounded-[50px]"></div>
+        <div class="hero-overlay bg-opacity-50 lg:rounded-[50px]"></div>
         <div class="hero-content text-neutral-content text-center"></div>
       </div>
+
+      <!-- static banner section  -->
+      <section
+        class="mt-10 max-w-[1160px] mx-auto flex flex-col lg:flex-row gap-5"
+      >
+        <div class="bg-[#FBFBFB] p-5 space-y-3 rounded-xl">
+          <h1 class="text-3xl font-bold">90%</h1>
+          <p class="text-[#020043]">
+            Patient satisfaction <br />
+            rate, reflecting our commitment.
+          </p>
+          <img
+            src="./Image/pirChart.png"
+            alt="pie_chart_image"
+            class="w-52 h-32"
+          />
+        </div>
+        <div>
+          <h1 class="text-center text-4xl font-bold">
+            Comprehensive Care <br />for Every Patient
+          </h1>
+          <div class="mt-5 flex flex-col md:flex-row gap-5">
+            <div class="bg-[#FBFBFB] p-5 rounded-xl relative">
+              <h1 class="text-3xl font-bold">500+</h1>
+              <p class="text-[#020043]">Board-certified doctors</p>
+
+              <img
+                src="./Image/awardImg.png"
+                alt="award_image"
+                class="w-14 h-16 absolute right-4 bottom-2"
+              />
+            </div>
+            <div class="bg-[#FBFBFB] mt-10 p-5 rounded-xl">
+              <div class="flex gap-1 items-center">
+                <h1 class="text-3xl font-bold">4.8</h1>
+                <div class="rating">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+              </div>
+              <p class="text-[#020043]">Over 20,000 Patient</p>
+              <div class="mt-2 flex">
+                <img
+                  src="./Image/avatar2.jpeg"
+                  alt="avatar_image"
+                  class="w-12 h-12 rounded-full"
+                />
+                <img
+                  src="./Image/avatar4.jpeg"
+                  alt="avatar_image"
+                  class="w-12 h-12 relative right-2 rounded-full"
+                />
+                <img
+                  src="./Image/avatar5.jpeg"
+                  alt="avatar_image"
+                  class="w-12 h-12 relative right-4 rounded-full"
+                />
+                <img
+                  src="./Image/avatar3.jpeg"
+                  alt="avatar_image"
+                  class="w-12 h-12 relative right-6 rounded-full"
+                />
+              </div>
+            </div>
+            <div class="bg-[#FBFBFB] p-5 rounded-xl relative">
+              <h1 class="text-3xl font-bold">$5000</h1>
+              <p class="text-[#020043]">Money spend for poor patient</p>
+              <img
+                src="./Image/goldDollar.png"
+                alt="award_image"
+                class="w-14 h-16 absolute right-4 bottom-2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#FBFBFB] p-5 space-y-3 rounded-xl">
+          <h1 class="text-3xl font-bold">50+</h1>
+          <p class="text-[#020043]">Free lession video for patient.</p>
+          <img
+            src="./Image/logoPlay.png"
+            alt="play_logo_image"
+            class="w-52 h-32"
+          />
+        </div>
+      </section>
     </header>
 
     <!-- main section  -->
@@ -154,7 +243,7 @@
           </button>
         </div>
         <div class="flex-1 relative">
-          <img src="./Image/Rectangle 24.png" alt="" />
+          <img src="./Image/Rectangle 24.png" alt="about_image" />
           <div
             class="md:w-[395px] bg-[#343268] text-white p-2 md:py-10 md:px-8 rounded-2xl absolute bottom-[-70px] lg:bottom-[-10px] lg:left-[-70px]"
           >
@@ -208,7 +297,11 @@
         </div>
         <!-- service 1  -->
         <div class="relative">
-          <img src="./Image/Rectangle 27-2.png" alt="" class="rounded-3xl" />
+          <img
+            src="./Image/Rectangle 27-2.png"
+            alt="service_image"
+            class="rounded-3xl"
+          />
           <div
             class="md:w-[321px] bg-[#020043] bg-opacity-60 text-white p-5 rounded-2xl absolute bottom-5 left-5"
           >
@@ -221,7 +314,11 @@
         </div>
         <!-- service 2  -->
         <div class="relative">
-          <img src="./Image/Rectangle 27-1.png" alt="" class="rounded-3xl" />
+          <img
+            src="./Image/Rectangle 27-1.png"
+            alt="service_image"
+            class="rounded-3xl"
+          />
           <div
             class="md:w-[321px] bg-[#020043] bg-opacity-60 text-white p-5 rounded-2xl absolute bottom-5 left-5"
           >
@@ -234,7 +331,11 @@
         </div>
         <!-- service 3  -->
         <div class="relative">
-          <img src="./Image/Rectangle 27.png" alt="" class="rounded-3xl" />
+          <img
+            src="./Image/Rectangle 27.png"
+            alt="service_image"
+            class="rounded-3xl"
+          />
           <div
             class="md:w-[321px] bg-[#020043] bg-opacity-60 text-white p-5 rounded-2xl absolute bottom-5 left-5"
           >
@@ -243,6 +344,346 @@
               Our surgeons are trained in the latest robotic surgical
               techniques, which allow for greater precision
             </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section class="mt-20 lg:mt-40">
+        <div class="flex-1">
+          <button class="btn btn-outline rounded-full px-6 mb-6">
+            Testimonial
+          </button>
+          <h1 class="text-4xl text-[#020043] font-medium">
+            What they say about us
+          </h1>
+
+          <!-- All Testimonials  -->
+          <div class="mt-14 flex flex-col md:flex-row gap-6 lg:gap-10">
+            <!-- Testimonials 1 -->
+            <div class="space-y-5">
+              <h1 class="text-xl text-[#020043] font-semibold">
+                Expertise and Compassion Combined
+              </h1>
+              <p class="text-[#4D4C7B]">
+                I can't thank enough for their exceptional care. The doctors and
+                staff showed incredible expertise and compassion throughout my
+                treatment journey. I felt truly cared for every step of the way.
+              </p>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="./Image/avatar1.jpeg"
+                  alt="avatar"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div>
+                  <h6 class="inline font-semibold">Sarah D,</h6>
+                  <span>IT Professional</span>
+                  <div class="rating block">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked="checked"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonials 2 -->
+            <div class="space-y-5">
+              <h1 class="text-xl text-[#020043] font-semibold">
+                Life-Saving Care, Life-Changing Experience
+              </h1>
+              <p class="text-[#4D4C7B]">
+                My experience at [Healthcare Provider Name] was life-changing.
+                The prompt and accurate diagnosis, coupled with the advanced
+                treatments they provided, saved my life.
+              </p>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="./Image/avatar2.jpeg"
+                  alt="avatar"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div>
+                  <h6 class="inline font-semibold">Michael R,</h6>
+                  <span>Business Executive</span>
+                  <div class="rating block">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked="checked"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonials 3 -->
+            <div class="space-y-5">
+              <h1 class="text-xl text-[#020043] font-semibold">
+                A Partner in Health and <br />
+                Wellness
+              </h1>
+              <p class="text-[#4D4C7B]">
+                As a busy professional, I appreciate the convenience and quality
+                of care I receive at [Healthcare Provider Name]. From
+                telemedicine consultations to routine check-ups, they've become
+                my trusted partner in health and
+              </p>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="./Image/avatar3.jpeg"
+                  alt="avatar"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div>
+                  <h6 class="inline font-semibold">David S,</h6>
+                  <span>Lawyer</span>
+                  <div class="rating block">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked="checked"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ section  -->
+      <section class="mt-20 lg:mt-40">
+        <div class="flex-1 space-y-6">
+          <button class="btn btn-outline rounded-full px-6">Faq</button>
+          <h1 class="text-4xl text-[#020043] font-medium">
+            Frequntly Asked Question
+          </h1>
+          <!-- FAQ Q&A  -->
+          <!-- Q&A 1  -->
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              What are your office hours?
+            </div>
+            <div class="collapse-content">
+              <p>
+                Our office hours vary by location, but typically we are open
+                Monday through Friday from 8:00 AM to 5:00 PM. Some locations
+                may offer extended hours or weekend appointments. Please contact
+                your nearest clinic for specific hours.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q&A 2  -->
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              How can I schedule an appointment?
+            </div>
+            <div class="collapse-content">
+              <p>
+                To schedule a doctor's appointment online, visit the healthcare
+                provider's website and navigate to the "Appointments" section.
+                Choose the type of appointment you need and select a doctor or
+                specialist. Pick a suitable date and time, provide necessary
+                personal and insurance information, and confirm the appointment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q&A 3  -->
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              Do you accept insurance?
+            </div>
+            <div class="collapse-content">
+              <p>
+                To inquire about insurance acceptance, visit the healthcare
+                provider's website and check the "Insurance" or "Billing"
+                section. Alternatively, contact their office directly via phone
+                or email to confirm if your insurance plan is accepted before
+                scheduling an appointment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q&A 4  -->
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              What should I bring to my appointment?
+            </div>
+            <div class="collapse-content">
+              <p>
+                For your appointment, bring a photo ID, insurance card, list of
+                current medications, medical history, and any relevant medical
+                records. Additionally, bring a form of payment for any co-pays,
+                and a list of questions or concerns you want to discuss with the
+                doctor.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q&A 5  -->
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">
+              Do you offer telemedicine appointments?
+            </div>
+            <div class="collapse-content">
+              <p>
+                To find out if telemedicine appointments are offered, check the
+                healthcare provider's website under the "Telemedicine" or
+                "Virtual Visits" section. You can also call or email their
+                office for details on availability, how to schedule, and the
+                technology required for virtual appointments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- offer section  -->
+      <section class="mt-20 lg:mt-40">
+        <div
+          class="hero min-h-[477px] relative rounded-3xl"
+          style="background-image: url(./Image/Rectangle\ 32.png)"
+        >
+          <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+          <div class="hero-content">
+            <div
+              class="absolute md:w-3/4 flex items-center h-full left-0 bottom-0 bg-gradient-to-r from-[#020043] to-base-300 rounded-3xl"
+            >
+              <div class="text-white md:pl-12 px-1">
+                <h1 class="lg:text-5xl text-3xl font-medium text-[#FFFFF5]">
+                  Get Your <br />
+                  First Appointment <br />
+                  at 50% Off!
+                </h1>
+                <div class="mt-10 flex gap-5">
+                  <button class="btn bg-[#FFC637]">
+                    Appointment
+                    <svg
+                      class="w-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        d="M6 18L18 6"
+                        stroke="black"
+                        stroke-width="2"
+                        fill="none"
+                      />
+                      <path
+                        d="M6 6h12v12"
+                        stroke="black"
+                        stroke-width="2"
+                        fill="none"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn btn-outline border-white text-white">
+                    Learn More
+                    <svg
+                      class="w-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        d="M6 18L18 6"
+                        stroke="white"
+                        stroke-width="2"
+                        fill="none"
+                      />
+                      <path
+                        d="M6 6h12v12"
+                        stroke="white"
+                        stroke-width="2"
+                        fill="none"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./Image/logo light.png"
+              alt="logo"
+              class="absolute top-16 right-10"
+            />
           </div>
         </div>
       </section>
